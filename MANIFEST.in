@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ben *.css
+recursive-include ben *.csv
+recursive-include ben *.html
+recursive-include ben *.ico
+recursive-include ben *.js
+recursive-include ben *.json
+recursive-include ben *.md
+recursive-include ben *.png
+recursive-include ben *.py
+recursive-include ben *.svg
+recursive-include ben *.txt
+recursive-exclude ben *.pyc
